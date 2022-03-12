@@ -1,0 +1,26 @@
+Suchprotokoll 2.6.1 für Zen Cart 1.5.7 deutsch
+deutsche Übersetzung des Moduls Search Log 
+http://www.zen-cart.com/downloads.php?do=file&id=485
+
+Sinn und Zweck dieses Moduls:
+Immer wenn ein Besucher im Shop die Suchfunktion nutzt und Suchbegriffe eingibt, werden Datum und Uhrzeit der Suche, die Suchbegriffe und die Anzahl der erhaltenen Suchergebnisse in eienr neuen Datenbanktabelle protokolliert.
+Eine Übersicht der Suchanfragen ist dann der Zen Cart Administration unter Statistiken > Suchprotokoll zu finden
+Hier können alte Suchanfragen gelöscht werden (stark empfohlen, um die Datenbank nicht unnötig aufzublähen).
+Die Suchanfragen können hier auch zur Analyse in Excel/Open Office als csv Datei exportiert werden.
+Seit Version 2.6.0 werden Suchen von Administratoren (unter Konfiguration > Shopwartung hinterlegte IP Adressen) nicht mehr protokolliert.
+
+
+Installation:
+Im Ordner SQL die install.sql mit einem Texteditor öffnen und den Inhalt ins Eingabefeld unter Tools > SQL Patches installieren kopieren und absenden. Dadurch werden die nötigen Datenbankänderungen vorgenommen.
+Im Ordner NEUE DATEIEN den Ordner DEINADMIN auf den Namen Ihres Adminverzeichnisses umbenennen. Dann in der vorgegebenen Struktur ins Shopverzeichnis hochladen, dadurch werden keinerlei bestehenden Dateien überschrieben.
+
+
+Deinstallieren
+Im Ordner SQL die uninstall.sql mit einem Texteditor öffnen und den Inhalt ins Eingabefeld unter Tools > SQL Patches installieren kopieren und absenden. Dadurch werden die Datenbankänderungen, die das Modul vorgenommen hat wieder entfernt.
+Die neu von diesem Modul hinzgefügten Dateien wieder vom Server löschen
+
+getestet mit Zen Cart Version:
+Zen Cart 1.5.7 deutsch
+
+getestet mit PHP Version:
+8.0.x

@@ -1,16 +1,13 @@
 <?php
-// Search Log v2.6.0
-// Written By C.J.Pinder (c) 2007
-// Portions Copyright 2003-2021 Zen Cart Development Team
-// Portions Copyright 2003 osCommerce
-//
-// This source file is subject to version 2.0 of the GPL license, 
-// that is bundled with this package in the file LICENSE, and is
-// available through the world-wide-web at the following url:
-// http://www.zen-cart.com/license/2_0.txt
-// If you did not receive a copy of the zen-cart license and are unable
-// to obtain it through the world-wide-web, please send a note to
-// license@zen-cart.com so we can mail you a copy immediately.    
+/**
+* Zen Cart German Specific
+* Written By C.J.Pinder (c) 2007
+* @copyright Copyright 2003-2022 Zen Cart Development Team
+* Zen Cart German Version - www.zen-cart-pro.at
+* @copyright Portions Copyright 2003 osCommerce
+* @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
+* @version $Id: class_search_log.php 2022-03-22 09:40:16Z webchills $
+*/
 
 if (!defined('IS_ADMIN_FLAG')) {
   die('Illegal Access');

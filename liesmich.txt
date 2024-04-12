@@ -1,4 +1,4 @@
-Suchprotokoll 2.6.1 für Zen Cart 1.5.7 deutsch
+Suchprotokoll 2.6.2 für Zen Cart 1.5.7 deutsch
 deutsche Übersetzung des Moduls Search Log 
 http://www.zen-cart.com/downloads.php?do=file&id=485
 
@@ -10,11 +10,11 @@ Die Suchanfragen können hier auch zur Analyse in Excel/Open Office als csv Date
 Seit Version 2.6.0 werden Suchen von Administratoren (unter Konfiguration > Shopwartung hinterlegte IP Adressen) nicht mehr protokolliert.
 
 getestet mit Zen Cart Version:
-Zen Cart 1.5.7 deutsch
+Zen Cart 1.5.7h deutsch
 
 getestet mit PHP Version:
-8.0.x
-7.4.x
+8.1.x
+8.2.x
 
 
 Installation:
